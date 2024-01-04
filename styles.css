@@ -1,0 +1,356 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", "Roboto,Ubuntu", "sans-serif";
+}
+
+.container1 {
+    background-image: url("https://preview.redd.it/how-can-someone-make-this-background-with-html-and-css-i-v0-zjgs096khv591.jpg?auto=webp&s=9659527da9196c27a8875200b41d20a8e901c341");
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    top: 0;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(2000px, 100vw);
+    background-color: black;
+}
+.container1 .bg {
+    height:100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background: rgb(0 0 0 / 70%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:1500px) {
+    .container1 {
+        background-size: max(2000px, 100vw);
+    }
+
+    nav {
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    nav {
+        padding: 0 3rem;
+        display: flex;
+        align-items: center;
+        height: 7.5rem;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        box-sizing: border-box;
+    }
+
+    .some {
+        justify-content: center;
+    }
+}
+
+.logo {
+    width: 9.25rem;
+    height: 2.5rem;
+    color: rgb(229, 9, 20);
+    fill: currentColor;
+    display: block;
+}
+
+.nav {
+    width: 100%;
+    height: 7.5rem;
+}
+
+.some {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav {
+    padding: 0 3rem;
+    display: flex;
+    align-items: center;
+    height: 7.5rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+@media screen and (max-width:600px) {
+    nav {
+        padding: 0 1.5rem;
+    }
+
+    .logos {
+        width: 5.5625rem;
+        height: 1.5rem;
+    }
+}
+
+.lang {
+    margin-right: 24px;
+    display: flex;
+    border: 2px solid black;
+    align-items: center;
+    min-width: auto;
+    width: auto;
+}
+
+.langin {
+    width: 100%;
+    color: white;
+    padding: 6px 15px;
+    font-size: 13px;
+    font-weight: bold;
+    background: transparent;
+    animation: animation-14hycbg;
+    padding-left: 27px;
+    -webkit-animation: animation-14hycbg;
+    animation: animation-14hycbg;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+
+}
+
+.signin {
+    padding: 0.25rem 1rem;
+    font-size: 13px;
+    background: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+    font-size: 0.875rem;
+    font-weight: bold;
+    min-height: 2rem;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    min-height: 2rem;
+    padding: 0.25rem 1rem;
+    background: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+}
+
+.langin {
+    border-color: rgba(128, 128, 128, 0.7);
+    filter: opacity(100%);
+    padding-right: 24px;
+    padding-left: 2.25rem;
+    padding-bottom: 0.375rem;
+    padding-top: 0.375rem;
+    min-width: auto;
+    width: 100%;
+    line-height: 1.25rem;
+    min-height: 16px;
+}
+
+.langs {
+    color: white;
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    margin-left: 0.75rem;
+}
+
+.langua {
+    display: flex;
+    justify-self: flex-end;
+    color: white;
+    position: relative;
+}
+
+.con1cont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    color: white;
+    overflow: hidden;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+
+p {
+    color: white;
+    margin: 1rem 0 0;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.tv1{
+
+    width: 100%;
+    min-width: auto ;
+}
+
+form {
+    margin-bottom: -1.625rem;
+    text-align: left;
+    position: relative;
+    margin: 1rem auto 0;
+    width: 100%;
+    max-width: 36.625rem;
+    display: flex;
+}
+
+.email {
+    background: rgba(22, 22, 22, 0.7);
+    border-color: rgb(235, 57, 66);
+    padding: 24px 16px 8px;
+    display: flex;
+    flex-shrink: 3;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-right: 8px;
+    box-sizing: border-box;
+    border-width: 0.0625rem;
+    border-radius: 0.1875rem;
+    color: white;
+}
+
+.submit {
+    height: 48px;
+    box-sizing: border-box;
+    width: 209.25px;
+    height: 56px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    min-height: 3.5rem;
+    padding: 0.75rem 1.5rem;
+    background: rgb(229, 9, 20);
+    color: white;
+    padding: 12px 24px;
+    border-width: 0.0625rem;
+    border-radius: 0.1875rem;
+    border-color: rgba(0, 0, 0, 0);
+}
+.container2 {
+    border: 2px solid black;
+    height: 100%;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    padding: 0; 
+}
+ 
+@media screen and (max-width: 960px) {
+    h1 {
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+}
+@media screen and (max-width: 710px) {
+    h1 {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    .jointoday,
+    .ready {
+        margin: 1rem 0 0;
+        font-size: 1.125rem;
+        font-weight: 400;
+        text-align: center;
+    }
+}
+@media screen and (min-width:960px) {
+ 
+    .jointoday,
+    .ready {
+        margin-top: 16px;
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+}
+@media screen and (max-width:700px) {
+    form{
+        padding: 0 1.5rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    .submit{
+        margin-top: 1rem;
+    }
+    .email{
+        min-width: 12.5rem;
+
+    }
+}
+.horizontal {
+    height: 8px;
+    z-index: 1;
+    box-sizing: border-box;
+    width: 100%;;
+}
+.container2,.container3{
+    height: 100%;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    top: calc(100% + 8px);
+    background: rgb(0, 0, 0);
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.container3{
+    height: 100%;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    top: calc(200% + 8px);
+    background: rgb(0, 0, 0);
+    box-sizing: border-box;
+    overflow: hidden;
+}
+h2{
+    color: white;
+}
+@media screen and (min-width: 1000px) {
+    .con2cont{
+        max-width: calc(94% - 6rem);
+        text-align: left;
+        display: flex;
+        margin: auto;
+        min-height: auto;
+        min-height: -webkit-fill-available;
+        align-items: center;
+        justify-content: center;
+    }
+ 
+    h2 {
+        color: white;
+        font-size: 3rem;
+        font-weight: 900;
+    }
+    .container2 {
+        min-height: auto;
+        height: 100%;
+    }
+}
+@media screen and (min-width: 2000px){
+    .con2cont, .con3cont{
+        max-width: calc(66.666667% - 6rem);
+        justify-content: center;
+    }
+}
+@media screen and (max-width:700px) {
+    h2 p{
+        text-align: center;
+    }
+    h2{
+        font-size:1.6rem;
+        font-weight: 700;
+    }
+}
